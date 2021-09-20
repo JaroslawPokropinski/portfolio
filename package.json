@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "crossenv NODE_ENV=production ng build",
+    "build": "cross-env NODE_ENV=production ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -29,7 +29,7 @@
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
-    "crossenv": "^0.0.2-security",
+    "cross-env": "^7.0.3",
     "gh-pages": "^3.2.3",
     "jasmine-core": "~3.8.0",
     "karma": "~6.3.0",
